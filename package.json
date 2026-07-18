@@ -1,0 +1,15 @@
+{
+  "name": "sitemarket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SiteMarket — статический маркетплейс готовых сайтов (сборка стилей на Tailwind CSS)",
+  "scripts": {
+    "dev": "tailwindcss -i ./tailwind.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./tailwind.css -o ./style.css --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
